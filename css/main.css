@@ -20,14 +20,13 @@ section {
     width: 75%;
     margin: 20px auto;
     color: #222222;
-    border-radius: 2px;
+    border-radius: 3px;
     padding: 0 2px 2px 2px;
     padding: 5px;
 }
 
 section h2 {
     text-align: center;
-    width: 100%;
     margin: 10px;
     font-size: 16px;
     text-transform: uppercase;
@@ -35,7 +34,7 @@ section h2 {
 
 ol {
     counter-reset: line-counter; /* Initiate a counter */
-    margin: 18px 10px
+    margin: 18px 52px;
     padding-left: 0;
 }
 ol > li {
@@ -74,6 +73,15 @@ section li:last-child {
     border: none;
 }
 
+section p {
+    margin: 18px auto 10px auto;
+    width: 93%;
+}
+
+hr {
+    border-top: 1px solid #ccc;
+}
+
 footer {
     color: white;
 
@@ -82,4 +90,5 @@ footer {
     font-weight: bold;
     text-transform: uppercase;
     color: #222222;
+    margin-right: 4px;
 }
