@@ -1,0 +1,67 @@
+body {
+    background-color: #3c3c3c;
+    font-family: "ProximaNova-Regular", Arial, Helvetica, Geneva, sans-serif;
+}
+
+header, footer {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+header h1 {
+    margin: 4px 0;
+    color: white;
+    font-weight: normal;
+}
+
+section {
+    background-color: white;
+    width: 75%;
+    margin: 20px auto;
+    color: #222222;
+    border-radius: 2px;
+    padding: 0 2px 2px 2px;
+    padding: 5px;
+}
+
+section h2 {
+    text-align: center;
+    width: 100%;
+    margin: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+section ol {
+    list-style-type: none;
+}
+section li {
+    margin: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #ddd;
+}
+section li:last-child {
+    border: none;
+}
+
+footer {
+    color: white;
+
+}
+
+.item-number {
+    display: inline-block;
+    width: 20px;
+    margin: 0;
+    padding: 4px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.action-type {
+    font-weight: bold;
+    text-transform: uppercase;
+}
