@@ -25,7 +25,7 @@ section {
     padding: 5px;
 }
 
-section h2 {
+section h2, .bonus h3 {
     text-align: center;
     margin: 10px;
     font-size: 16px;
@@ -56,8 +56,6 @@ ol > li:before {
     -webkit-box-sizing:border-box;
     box-sizing:border-box;
     width: 2em;
-    /* Some space between the number and the content in browsers that support
-       generated content but not positioning it (Camino 2 is one example) */
     margin-right: 8px;
     padding: 4px;
     font-weight: bold;
@@ -76,6 +74,15 @@ section li:last-child {
 section p {
     margin: 18px auto 10px auto;
     width: 93%;
+}
+
+.bonus {
+
+}
+.bonus h3 {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 13px;
 }
 
 hr {
