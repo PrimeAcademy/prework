@@ -5,6 +5,7 @@
     <title>Zeta Cohort Prework</title>
     <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <script src="vendors/jquery/dist/jquery.min.js" ></script>
     <script src="vendors/bootstrap/dist/js/bootstrap.min.js" ></script>
 </head>
 <body>
@@ -17,10 +18,58 @@
         <p>Welcome to Prime! Before our first week, please be sure to watch and review the content listed below so you're ready for Week 1.</p>
         <hr />
         <ol>
-            <li><span class="action-type">Watch</span>Video</li>
-            <li><span class="action-type">Read</span>Expectations for the Pre-Work Phase</li>
-            <li><span class="action-type">To-Do</span>Itching to dig in now? (optional)</li>
+            <li data-toggle="collapse" data-target="#intro-1"><span class="action-type">Watch</span>Video
+                <div id="intro-1" class="collapse">
+                    <div>Video Player</div>
+                </div>
+            </li>
+            <li data-toggle="collapse" data-target="#intro-2"><span class="action-type">Read</span>Expectations for the Pre-Work Phase
+                <div id="intro-2" class="collapse sub-content">
+                    <p>Each week, you will see a list of CodeSchool content to complete. Once you have finished the activities for the week, head over to the discussion thread.</p>
+                    <p>There you will be posed a question that ties into the content you just finished reviewing. Share your thoughts on the topic, and check out your peers' responses and engage in additional conversation!</p>
+                    <p>After the discussion, it’s time for the assessment. One important thing I want you to keep in mind throughout prework, 'WE WILL BE REVIEWING THIS CONTENT IN CLASS THE FIRST WEEK". The reason I emphasize this is that I want to make sure you all know that there is time to absorb this information. While I want you be learning the content, I also understand that it may take some time to do so. So if you are feeling stressed out that you aren’t grasping the concepts  from CodeSchool, don't stress out. Reach out to me, your Instructor, reach out to your fellow students and give yourself time to review the content a second or third time.</p>
+                    <p>"Its together that you will succeed in Prime."</p>
+                    <p>This is a team based learning environment. We selected each of you because we feel you have something to bring to the group as a whole. I want you to engage with each other and with me.</p>
+                    <p>Finally, toward the end week, we will be have two, one hour Live discussion sessions. You only need to attend one. We do know however, that even offering two different times, that there may be some people who cannot attend in a given week. If this happens, please get in contact with me as soon as possible so we can ensure you don’t fall behind.</p>
+                    <p>The hangouts are a  chance for us all to chat about what we are learning that week, and for you to bring any questions that you may have. We will be have those discussions through Google Hangouts and the links will be provided at the 'attend an event' step for each week. Make sure that you have a Gmail account that you are willing to use for school and the Google Hangout plug-in installed. It is a Video Style chat, and you are welcomed to use your camera, but do not feel as though its a requirement. I would like you to have a Microphone however. This is so you can interact with all of us. If neither of those are possible, just let me know that is the case through an email prior to the discussions.</p>
+                    <p>To recap:</p>
+                    <ul>
+                        <li>Weeks are Monday morning to Sunday night. To be clear, Monday is when I will be going into the Pathwright backend and checking scores on assessments, or pulling GitHub Pages to see what work you have completed for the prior week. Then touching base with you if I see that I can help. Assessments need not be completed prior to the Live Chats, in fact I encourage to bring whatever questions you have to them.</li>
+                        <li>Complete the 'Code School' course(s) for each week.</li>
+                        <li>Participate in the Discussion on the 'Discussion Step'. Start by answering the weekly question, continue by interacting with your peers on their answers.</li>
+                        <li>Take the Assessment each week.</li>
+                        <li>Come hang out for an hour during one of the two live chats.</li>
+                    </ul>
+                    <p>Ready to get started?</p>
+                    <p>I know I am!</p>
+                </div>
+            </li>
+            <li data-toggle="collapse" data-target="#intro-3"><span class="action-type">To-Do</span>Itching to dig in now? (optional)
+                <div id="intro-3" class="collapse sub-content">
+                    <p>Below are some materials to check out if you are ready and itching to dig in! Keep in mind that you can come back to this content at any time if you are wanting to take on a little more in any given  week. Strengthening yourself by reinforcing your studies or reviewing what you’ve learned in these areas will help you long term! In addition to free materials, we’ve included some paid resources on this list. They are not required by Prime but we think some of you may want to invest in them on your own.
 
+                    Code Academy - HTML / CSS - http://www.codecademy.com/en/tracks/web
+
+                    Code Academy - Javascript - http://www.codecademy.com/en/tracks/javascript
+
+                    You have probably heard of Javascript before, and now would be a good time to dive head first into it. Speaking from experience, the sooner you expose yourself to the concepts, the more you will be set up for success as we delve into some of the deeper, more challenging concepts.
+
+                    Optional Additional Materials :
+
+                    (Free) - Eloquent Javascript, by Marjin Haverbeke - http://eloquentjavascript.net/
+
+                    Code Academy - jQuery - http://www.codecademy.com/en/tracks/jquery
+
+                    jQuery will be your first brush into the world of code libraries. At its core, jQuery is actually just Javascript, but with pre-programmed functionality to accelerate the development of some common tasks. If that does not make a ton of sense now, don't stress. As you tackle more projects at Prime, you will learn to love the concepts of code libraries and realize how valuable they are!
+
+                    Optional Additional Materials :
+
+                    (Free) - Code Academy - Make an Interactive Website - http://www.codecademy.com/en/skills/make-an-interactive-website
+
+                    (Paid) - Javascript & jQuery, by Jon Duckett - Amazon $39.99
+                    </p>
+                </div>
+            </li>
         </ol>
     </section>
     <section>
@@ -28,16 +77,82 @@
         <p>In week 1 we will dive deeper into HTML, beyond the basics that you covered in the training you did as part of your application to Prime. If you would like to shore up your understanding of HTML basics before starting this week, check out Code Schools’ Front-end Foundations. This course is a great opportunity to get familiar with Code School's interface and test what you learned from Code Academy.</p>
         <hr />
         <ol>
-            <li><span class="action-type">To-Do</span>Code School - Front End Foundations</li>
-            <li><span class="action-type">To-Do</span>Code School - Front End Formations</li>
-            <li><span class="action-type">To-Do</span>Discussion - Front End</li>
-            <li><span class="action-type">Attend</span>Live Discussion</li>
-            <li><span class="action-type">To-Do</span>Resume Re-Challenge</li>
+            <li data-toggle="collapse" data-target="#w1-1"><span class="action-type">To-Do</span>Code School - Front End Foundations
+            <div id="w1-1" class="collapse sub-content">
+                <p>Head over to: Code School - Front End Foundations
+
+                    Complete the course.
+
+                    "This is an excellent course for a refresher on HTML and CSS . We have heard from previous students that this course was foundational in re-establishing some of the concepts from the resume challenge. While some of it might seem redundant from the resume challenge learnings, I promise you that you will appreciate the refresher." -Joseph
+
+                    Check out the Chapter list below to get an idea of what is covered:
+
+                    HTML
+                    CSS
+                    Classes and Layouts
+                    Images
+                    Fonts and Forms</p>
+            </div></li>
+            <li data-toggle="collapse" data-target="#w1-2"><span class="action-type">To-Do</span>Code School - Front End Formations
+                <div id="w1-2" class="collapse sub-content">
+                    <p>Head over to: <a href="https://www.codeschool.com/courses/front-end-formations">Code School - Front End Formations</a></p>
+                    <p>Complete the course.
+
+                        "This course tackles the HTML5 specification (and talks about what that means!) and touches briefly on some techniques used in CSS3. Both of these are the most current versions of their respective technology and represent the current state of the art on the web.
+
+                        First, you will expand your knowledge of some new tags available to you in HTML5. With a cool emphasis on 'Forms' and their capabilities. This may be your first run in with Forms and they may be a little confusing at first. Keep in mind that I want you all to absorb the information that is being presented to you, but memorization is not a requirement. We are going to be covering this material over and over throughout the program. Adding complexity while reinforcing our understanding of the basics. So don't stress out or beat yourself up if you are struggling. Its OK, if this 'stuff' was easy, everyone would do it.
+
+                        After exploring HTML5, you will tackle some popular CSS3 techniques. This will give you a chance to look into some awesome styling capabilities and hopefully open you up to the idea of beautiful 'front-end design'." </p>
+                </div>
+            </li>
+            <li data-toggle="collapse" data-target="#w1-3"><span class="action-type">To-Do</span>Discussion - Front End
+                <div id="w1-3" class="collapse sub-content">
+                    <p>In the discussion area, answer the question:</p>
+                    <p>"Moving from just basic HTML / CSS into perhaps some more complicated HTML5 and CSS3 concepts, what concepts do you find to be the most challenging and difficult to grasp?"</p>
+                    <p>Additionally, feel free to communicate with each other. You could start by sharing anything you did to help you understand the content better. </p>
+                </div>
+            </li>
+            <li data-toggle="collapse" data-target="#w1-4"><span class="action-type">Attend</span>Live Discussion
+                <div id="w1-4" class="collapse sub-content">
+                    <p>Let's kick things off! You will need to attend one of the two scheduled Live Chats. We cover a variety of topics each week in them that are relevant to what is happening. Can't wait to chat with you!
+                        Eta Cohort - Week 1 - Live Chat - Afternoon Edition
+                        Thur, Oct 1, 2015 1:00 PM - 2:00 PM CDT
+                        Eta Cohort - Week 1 - Live Chat - Evening Edition
+                        Fri, Oct 2, 2015 6:00 PM - 7:00 PM CDT
+                        <a href="https://gotomeet.me/primeacademy">https://gotomeet.me/primeacademy</a>
+
+                        GoToMeeting®
+
+                        Online Meetings Made Easy®
+                    </p>
+                </div>
+            </li>
+            <li data-toggle="collapse" data-target="#w1-5"><span class="action-type">To-Do</span>Resume Re-Challenge
+                <div id="w1-5" class="collapse sub-content">
+                    <p>RESUME RE-CHALLENGE
+
+                        So you knocked out the Code School course. Awesome! Now lets take another crack at that resume employing the skills you just learned. Additionally, so much of what is important in software development, is understanding what the code is doing and speaking to the decisions that you made in your code. So after you overhaul your resume challenge a bit, I want you to do a small write up on what you changed and why.
+
+                        What to do:
+
+                        Enhance your resume with however you see fit based off what you learned this week. Keep a log of changes that you made that will help support your written portion of this assignment.
+                        Recommit your work to GitHub Pages so that I can review what you have completed.
+                        Email me what you changed about your resume styling and presentation, make sure to give it the subject "ETA COHORT - RESUME - <<your name>>". In talking about what you changed, make sure to talk about what things might have been 'new learnings' for you and why you decided to integrate them into your existing resume.</p>
+                </div>
+            </li>
         </ol>
         <div class="bonus">
             <h3>Bonus Challenge</h3>
             <ol>
-                <li><span class="action-type">To-Do</span>Get rid of those Divs!</li>
+                <li data-toggle="collapse" data-target="#w1-bonus"><span class="action-type">To-Do</span>Get rid of those Divs!
+                    <div id="w1-bonus" class="collapse sub-content">
+                        <p>Divs are awesome. We use them a ton once we get into adding functionality to our web experiences. But some developers use them excessively. Your task is to replace every Div you have in your resume with any of the new tags you learned about.
+
+                        NOTE: There might be reasons why you can't eliminate all of them, the goal here is to think critically about what NEEDS to be a Div, versus what can be something else.
+
+                        Once you are complete, post your work to GitHub Pages.</p>
+                    </div>
+                </>
             </ol>
         </div>
     </section>

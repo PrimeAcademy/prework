@@ -99,3 +99,9 @@ footer {
     color: #222222;
     margin-right: 4px;
 }
+.action-type:hover {
+    text-decoration: underline;
+}
+.sub-content {
+    color: black;
+}
