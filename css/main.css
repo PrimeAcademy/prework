@@ -28,14 +28,17 @@ section {
 section h2, .bonus h3 {
     text-align: center;
     margin: 10px;
-    font-size: 16px;
+    font-size: 22px;
     text-transform: uppercase;
+    font-weight: bold;
+    color: #07aa9e;
 }
 
 ol {
     counter-reset: line-counter; /* Initiate a counter */
     margin: 18px 52px;
     padding-left: 0;
+    list-style-position: inside;
 }
 ol > li {
     position:relative; /* Create a positioning context */
@@ -43,7 +46,7 @@ ol > li {
     padding: 4px 8px; /* Add some spacing around the content */
     list-style: none; /* Disable the normal item numbering */
     border-bottom: 1px solid #ddd;
-    color: #aaaaaa;
+    color: #000;
 }
 ol > li:before {
     content: counter(line-counter, upper-roman); /* Use the counter as content */
@@ -96,7 +99,7 @@ footer {
 .action-type {
     font-weight: bold;
     text-transform: uppercase;
-    color: #222222;
+    color: #07aa9e;
     margin-right: 4px;
 }
 .action-type:hover {
