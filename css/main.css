@@ -66,30 +66,24 @@ ol > li:before {
     line-height: 22px;
     color: #222222;
 }
-li ol,
-li ul {margin-top:6px;}
-ol ol li:last-child {margin-bottom:0;}
-
-section li:last-child {
+li ol,li ul {
+    margin-top: 6px;
+}
+.last {
     border: none;
 }
-
 section p {
     margin: 18px auto 10px auto;
     width: 93%;
 }
-
-.bonus {
-
-}
 .bonus h3 {
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ccc;
     padding-top: 10px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 hr {
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ccc;
 }
 
 footer {
@@ -107,4 +101,23 @@ footer {
 }
 .sub-content {
     color: black;
+    margin-bottom: 50px;
+}
+.discussion-block {
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #fdfdfd;
+    border: 2px solid #bcbcbc;
+}
+.discussion-block h2 {
+    font-size: 14px;
+}
+.discussion-block p {
+    margin: 0;
+}
+.discussion-block a {
+    margin: 10px auto;
+    display: block;
 }
