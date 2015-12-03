@@ -114,6 +114,10 @@ footer {
     font-weight: bold;
     margin-left: 42px;
 }
+.sub-content > ul {
+    margin: 20px;
+    list-style-type: disc;
+}
 .discussion-block {
     width: 50%;
     margin: 30px auto;
@@ -124,9 +128,10 @@ footer {
 }
 .discussion-block h2 {
     font-size: 14px;
+    margin: 2px 0 10px 0;
 }
 .discussion-block p {
-    margin: 0;
+    width: 100%;
 }
 .discussion-block a {
     margin: 10px auto;
