@@ -118,6 +118,9 @@ footer {
     margin: 20px;
     list-style-type: disc;
 }
+.sub-content iframe {
+    text-align: center;
+}
 .discussion-block {
     width: 50%;
     margin: 30px auto;
