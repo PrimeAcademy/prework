@@ -27,8 +27,8 @@ section {
 
 section h2, .bonus h3 {
     text-align: center;
-    margin: 10px;
-    font-size: 22px;
+    margin: 10px 0 20px 0;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     color: #07aa9e;
@@ -99,14 +99,15 @@ footer {
 .action-type:hover {
     text-decoration: underline;
 }
+/* Content Divs */
 .sub-content {
     color: black;
-    margin-bottom: 50px;
     width: 90%; 
     padding: 10px;
 }
 .sub-content p {
     width: inherit;
+    margin-top: 0;  
 }
 .sub-content > h3 {
     font-size: 18px;
