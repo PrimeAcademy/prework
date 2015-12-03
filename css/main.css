@@ -102,6 +102,16 @@ footer {
 .sub-content {
     color: black;
     margin-bottom: 50px;
+    width: 90%; 
+    padding: 10px;
+}
+.sub-content p {
+    width: inherit;
+}
+.sub-content > h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 42px;
 }
 .discussion-block {
     width: 50%;
