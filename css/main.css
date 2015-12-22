@@ -1,31 +1,20 @@
 body {
-    background-color: #3c3c3c;
-    font-family: "ProximaNova-Regular", Arial, Helvetica, Geneva, sans-serif;
+    font-family: "Interstate Light", arial, sans-serif;
 }
 
 header, footer {
-    width: 90%;
-    margin: 20px auto;
     text-align: center;
-}
-
-header h1 {
-    margin: 4px 0;
-    color: white;
-    font-weight: normal;
 }
 
 section {
     background-color: white;
-    width: 75%;
-    margin: 20px auto;
     color: #222222;
     border-radius: 3px;
     padding: 0 2px 2px 2px;
     padding: 5px;
 }
 
-section h2, .bonus h3 {
+section h2 {
     text-align: center;
     margin: 10px 0 20px 0;
     font-size: 20px;
@@ -36,50 +25,156 @@ section h2, .bonus h3 {
 
 ol {
     counter-reset: line-counter; /* Initiate a counter */
-    margin: 18px 52px;
     padding-left: 0;
     list-style-position: inside;
+    margin-top: 20px;
 }
 ol > li {
     position:relative; /* Create a positioning context */
-    margin: 10px 2em 10px 2em; /* Give each list item a left margin to make room for the numbers */
-    padding: 4px 8px; /* Add some spacing around the content */
+    padding: 10px 8px; /* Add some spacing around the content */
     list-style: none; /* Disable the normal item numbering */
-    border-bottom: 1px solid #ddd;
-    color: #000;
+    margin: 3px 0;
+
 }
+
+.grey-li > li {
+  background: #eee;
+  color: #000;
+  border: 1px solid #ddd;
+}
+
+ol > li:first-child.grey-li {
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.white-li > li {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+}
+
 ol > li:before {
-    content: counter(line-counter, upper-roman); /* Use the counter as content */
-    counter-increment:line-counter; /* Increment the counter by 1 */
-    /* Position and style the number */
-    position: absolute;
-    top: -1px;
-    left: -2em;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-    box-sizing:border-box;
-    width: 2em;
-    margin-right: 8px;
-    padding: 4px;
-    font-weight: bold;
-    text-align: right;
-    line-height: 22px;
-    color: #222222;
+  content: '';
+  display: block;
+  float: left;
+  margin: 3px 9px 0 5px;
+  width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+
+	border-left: 6px solid #07aa9e;
 }
+
+ol > li.collapsed:before {
+  content: '';
+  display: block;
+  float: left;
+  margin: 7px 9px 0 5px;
+  width: 0;
+	height: 0;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+
+	border-top: 6px solid #07aa9e;
+}
+
 li ol,li ul {
     margin-top: 6px;
 }
 .last {
     border: none;
 }
+
+.title-page {
+    padding: 25px 0;
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: normal;
+    background: #07aa9e;
+}
+
+
+.container-page {
+  width: 75%;
+  margin: 20px auto;
+}
+
+section {
+  padding: 35px 0;
+}
+
+.section-1 {
+  background: #ffffff;
+}
+
+.section-1 h2 {
+  color: #000;
+}
+
+.section-2 {
+  background: #eeeeee;
+}
+
+.section-2 h2 {
+  color: #07aa9e;
+}
+
+.section-3 {
+  background: #337277;
+  color: #fff;
+}
+
+.section-3 h2 {
+  color: #eeeeee;
+}
+
+.section-4 {
+  background: #ffffff;
+}
+
+.section-4 h2 {
+  color: #000;
+}
+
+.section-5 {
+  background: #eeeeee;
+}
+
+.section-6 {
+  background: #07aa9e;
+  color: #ffffff;
+}
+
+.section-6 h2 {
+  color: #222;
+}
+
+.section-7 {
+  background: #ffffff;
+}
+
+.section-7 h2 {
+  color: #000;
+}
+
+#intro-1 {
+  text-align: center;
+  padding: 20px 0;
+}
+
 section p {
     margin: 18px auto 10px auto;
-    width: 93%;
 }
-.bonus h3 {
-    border-top: 2px solid #ccc;
-    padding-top: 10px;
+.bonus-white h3 {
+    padding: 10px;
+    margin-top: 20px;
     font-size: 14px;
+    color: #07aa9e;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
 }
 
 hr {
@@ -102,12 +197,13 @@ footer {
 /* Content Divs */
 .sub-content {
     color: black;
-    width: 90%; 
-    padding: 10px;
+    width: 94%;
+    margin: 0 auto;
+    padding: 15px 10px;
 }
 .sub-content p {
     width: inherit;
-    margin-top: 0;  
+    margin-top: 0;
 }
 .sub-content > h3 {
     font-size: 18px;
