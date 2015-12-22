@@ -27,15 +27,18 @@ section {
 
 section h2, .bonus h3 {
     text-align: center;
-    margin: 10px;
-    font-size: 16px;
+    margin: 10px 0 20px 0;
+    font-size: 20px;
     text-transform: uppercase;
+    font-weight: bold;
+    color: #07aa9e;
 }
 
 ol {
     counter-reset: line-counter; /* Initiate a counter */
     margin: 18px 52px;
     padding-left: 0;
+    list-style-position: inside;
 }
 ol > li {
     position:relative; /* Create a positioning context */
@@ -43,7 +46,7 @@ ol > li {
     padding: 4px 8px; /* Add some spacing around the content */
     list-style: none; /* Disable the normal item numbering */
     border-bottom: 1px solid #ddd;
-    color: #aaaaaa;
+    color: #000;
 }
 ol > li:before {
     content: counter(line-counter, upper-roman); /* Use the counter as content */
@@ -63,30 +66,24 @@ ol > li:before {
     line-height: 22px;
     color: #222222;
 }
-li ol,
-li ul {margin-top:6px;}
-ol ol li:last-child {margin-bottom:0;}
-
-section li:last-child {
+li ol,li ul {
+    margin-top: 6px;
+}
+.last {
     border: none;
 }
-
 section p {
     margin: 18px auto 10px auto;
     width: 93%;
 }
-
-.bonus {
-
-}
 .bonus h3 {
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ccc;
     padding-top: 10px;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 hr {
-    border-top: 1px solid #ccc;
+    border-top: 2px solid #ccc;
 }
 
 footer {
@@ -96,12 +93,50 @@ footer {
 .action-type {
     font-weight: bold;
     text-transform: uppercase;
-    color: #222222;
+    color: #07aa9e;
     margin-right: 4px;
 }
 .action-type:hover {
     text-decoration: underline;
 }
+/* Content Divs */
 .sub-content {
     color: black;
+    width: 90%; 
+    padding: 10px;
+}
+.sub-content p {
+    width: inherit;
+    margin-top: 0;  
+}
+.sub-content > h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 42px;
+}
+.sub-content > ul {
+    margin: 20px;
+    list-style-type: disc;
+}
+.sub-content iframe {
+    text-align: center;
+}
+.discussion-block {
+    width: 50%;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #fdfdfd;
+    border: 2px solid #bcbcbc;
+}
+.discussion-block h2 {
+    font-size: 14px;
+    margin: 2px 0 10px 0;
+}
+.discussion-block p {
+    width: 100%;
+}
+.discussion-block a {
+    margin: 10px auto;
+    display: block;
 }
