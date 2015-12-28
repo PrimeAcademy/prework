@@ -110,7 +110,7 @@ section {
 }
 
 .section-1 h2 {
-  color: #000;
+  color: #444;
 }
 
 .section-2 {
@@ -123,11 +123,14 @@ section {
 
 .section-3 {
   background: #337277;
+  /* maybe??
+  background: #07aa9e;
+  */
   color: #fff;
 }
 
 .section-3 h2 {
-  color: #eeeeee;
+  color: #ffffff;
 }
 
 .section-4 {
@@ -135,7 +138,7 @@ section {
 }
 
 .section-4 h2 {
-  color: #000;
+  color: #666;
 }
 
 .section-5 {
@@ -148,7 +151,7 @@ section {
 }
 
 .section-6 h2 {
-  color: #222;
+  color: #fff;
 }
 
 .section-7 {
@@ -156,7 +159,7 @@ section {
 }
 
 .section-7 h2 {
-  color: #000;
+  color: #222;
 }
 
 #intro-1 {
