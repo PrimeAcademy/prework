@@ -201,6 +201,7 @@ footer {
     width: 94%;
     margin: 0 auto;
     padding: 15px 10px;
+    background-color: white;
 }
 .sub-content p {
     width: inherit;
