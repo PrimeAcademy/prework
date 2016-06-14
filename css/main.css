@@ -37,6 +37,16 @@ ol > li {
     cursor: pointer;
 }
 
+table {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 4px;
+  border: 1px solid;
+}
+
 .grey-li > li {
   background: #eee;
   color: #000;
@@ -165,7 +175,7 @@ section {
   padding: 20px 0;
 }
 
-section p {
+section p, table {
     margin: 18px auto 10px auto;
 }
 .bonus-white h3 {
