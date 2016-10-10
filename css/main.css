@@ -103,6 +103,23 @@ li ol,li ul {
     background: #07aa9e;
 }
 
+.header-nav {
+  background: #07aa9e;
+  text-align: left;
+  font-size: 25px;
+}
+
+.header-nav li {
+  list-style: none;
+}
+
+.header-nav a:link {
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  background-color: #ffffff;
+}
 
 .container-page {
   width: 75%;
