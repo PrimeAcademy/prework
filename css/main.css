@@ -187,7 +187,7 @@ section {
   color: #222;
 }
 
-#intro-1 {
+#intro-1, #w1-0, #w2-0, #w3-0, #w4-0, #w5-0, #w6-0{
   text-align: center;
   padding: 20px 0;
 }
@@ -216,7 +216,7 @@ footer {
 .action-type {
     font-weight: bold;
     text-transform: uppercase;
-    color: #07aa9e;
+    color: #07aa9e !important;
     margin-right: 4px;
 }
 .action-type:hover {
