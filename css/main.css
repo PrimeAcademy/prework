@@ -64,7 +64,7 @@ ol > li:first-child.grey-li {
   border: 1px solid #ddd;
 }
 
-ol > li:before {
+ol > li > div:first-child:before {
 content: '';
 display: block;
 float: left;
@@ -76,7 +76,7 @@ border-right: 6px solid transparent;
 border-top: 6px solid #07aa9e;
 }
 
-ol > li.collapsed:before {
+ol > li > div.collapsed:first-child:before {
   content: '';
   display: block;
   float: left;
