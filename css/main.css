@@ -210,8 +210,8 @@ hr {
 }
 
 footer {
-    color: white;
-
+    color: #07aa9e;
+    margin: 10px 0;
 }
 .action-type {
     font-weight: bold;
